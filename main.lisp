@@ -10,9 +10,8 @@
     :set-content-type
     :query-param
     :param
-    :header
-
-    ))
+    :header)
+  (:nicknames "nimac"))
 (in-package :ningle-macros)
 
 (defmacro print-route (route)
